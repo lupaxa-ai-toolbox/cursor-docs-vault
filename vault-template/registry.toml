@@ -1,0 +1,6 @@
+# Canonical projects for this vault.
+# Docs live at: projects/<org>/<repo>/superpowers/{specs,plans}/
+# <repo> has leading dots stripped (.github -> github).
+# github = real GitHub "org/repo" (may include leading dots).
+#
+# Local checkout paths are NOT stored here — use links.local.toml (gitignored).

@@ -1,0 +1,9 @@
+# Copy to links.local.toml on this machine. links.local.toml is gitignored.
+#
+#   cp links.local.example.toml links.local.toml
+#
+# Keys are "org/repo" (vault folder names; leading dots stripped).
+# Values are absolute paths to code checkouts.
+
+[paths]
+"example-org/example-repo" = "/Users/YOU/path/to/example-repo"

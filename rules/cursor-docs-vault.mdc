@@ -1,0 +1,18 @@
+---
+description: Keep Cursor agent specs and plans in the shared cursor-docs vault
+alwaysApply: true
+---
+
+# cursor-docs vault
+
+Before writing a spec or plan, run the engine's `scripts/ensure-linked.sh` on
+this code checkout. Do not ask first.
+
+Write specs and plans under `cursor-docs/superpowers/specs/` and
+`cursor-docs/superpowers/plans/`. That path is a symlink into the team's
+private vault.
+
+After changing those files or `registry.toml`, run `scripts/sync-vault.sh`
+from the engine. Do not stage `links.local.toml`.
+
+Do not commit the `cursor-docs` symlink in this code repository.
