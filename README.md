@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<h1 align="center">cursor-docs-vault</h1>
+<h1 align="center">Cursor Docs Vault</h1>
 
 Share Cursor agent specs and plans from one private vault across a team's repositories.
 
